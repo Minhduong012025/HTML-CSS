@@ -1,0 +1,48 @@
+:root {
+    --white-color: #fff;
+}
+
+html {
+    font-size: 62.5%;  /* 1rem = 10px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* STYLE BTN */
+
+.btn-primary {
+    padding: 16px 26px;
+    background-color: #FF5300;
+    border: none;
+    color: var(--white-color);
+    font-size: 1.8rem;
+    padding: 2rem 4.3rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.btn-primary:hover {
+    opacity: 0.5;
+}
+
+@keyframes fadeIn {
+    from {
+        scale: 0;
+        opacity: 0;
+    }
+
+    to {
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+
+

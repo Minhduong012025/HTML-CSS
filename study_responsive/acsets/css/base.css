@@ -1,0 +1,18 @@
+:root {
+    --white-color: #fff;
+    --p-color: #606176;
+    --btn-color: #f77e53;
+    --heading-color: #101130;
+    --primery-color: #2076FF;
+    --buy-color: #F6C07A;
+    --bgr-icon-color: #D2F1E1;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

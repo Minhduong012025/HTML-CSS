@@ -1,0 +1,92 @@
+html {
+    font-size: 62.5%;  /* 1rem = 10px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-primary: #3252DF;
+    --color-text: #152C5B;
+    --color-blur: #B0B0B0;
+    --white-color: #fff;
+}
+
+.grid {
+    width: 1440px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.block {
+    margin: 0 15.0rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.8rem;
+}
+
+.row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.9rem;
+}
+
+.row__between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column-60 {
+    width: 100%;
+    max-width: 65.7%;
+}
+
+.column-31 {
+    width: 100%;
+    max-width: 31.7%;
+}
+
+.column-30 {
+    width: 100%;
+    max-width: 50%;
+    display: flex;
+    gap: 2.8rem;
+}
+
+.column-25 {
+    width: 100%;
+    max-width: 23.0701%;
+    flex-wrap: wrap;
+}
+
+/* slogen */
+
+.slogen__text {
+    font-size: 2.4rem;
+    font-weight: 100;
+    color: var(--color-text);
+    margin: 0;
+    font-weight: 540;
+}
+
+/* styles btn */
+
+
+.btn.btn {
+    font-size: 1.6rem;
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 4px;
+    color: var(--white-color);
+    padding: 16px 42px;
+    cursor: pointer;
+}
+
+.btn.btn:hover {
+    padding: 20px 46px;
+    transition: ease-in 0.2s;
+}
+
